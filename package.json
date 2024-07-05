@@ -1,6 +1,6 @@
 {
     "name": "react-simple-select-menu",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A simple React menu selection component.",
     "main": "dist/index.js",
     "author": "Mathis Charretier",
