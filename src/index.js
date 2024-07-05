@@ -1,1 +1,2 @@
-export { default as SelectMenu } from './components/SelectMenu'
+import SelectMenu from './components/SelectMenu'
+export default SelectMenu
