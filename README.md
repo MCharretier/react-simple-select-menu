@@ -2,6 +2,23 @@
 
 A simple React menu selection component
 
+## Compatibility
+
+This package has been tested and is known to work with the following versions of Node.js and npm:
+
+-   Node.js: >=22.x
+-   npm: >=10.x
+
+Please ensure you have these versions installed before using this package. You can verify this by using the following commands in your terminal:
+
+```bash
+# Check Node.js version
+node -v
+
+# Check npm version
+npm -v
+```
+
 ## Installation
 
 You can install the package via npm:
