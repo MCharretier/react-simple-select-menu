@@ -1,6 +1,19 @@
 import React, { useState, useEffect, useMemo, useCallback } from 'react'
 import styles from './styles.module.css'
 
+/**
+ * SelectMenu component renders a custom dropdown menu.
+ *
+ * @component
+ * @param {Object[]} options - The array of option objects to display in the menu.
+ * @param {string} options[].value - The value of the option.
+ * @param {string} options[].label - The label of the option.
+ * @param {Object} [defaultValue] - The default selected option.
+ * @param {string} defaultValue.value - The value of the default option.
+ * @param {string} defaultValue.label - The label of the default option.
+ * @param {function} [onChange] - The callback function to call when the selected option changes.
+ * @returns {JSX.Element} The rendered SelectMenu component.
+ */
 function SelectMenu({ options, defaultValue, onChange }) {
     const [isOpen, setIsOpen] = useState(false)
     const [selectedOption, setSelectedOption] = useState(defaultValue)
